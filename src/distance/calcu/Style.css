@@ -1,0 +1,76 @@
+.root {
+    -fx-background-color: #f4f7fb;
+    -fx-font-family: "Segoe UI";
+}
+
+.title {
+    
+    -fx-text-fill: #1e293b;
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+}
+.label {
+    
+    -fx-text-fill: #475569;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+.textfield {
+    
+    -fx-background-color: white;
+    -fx-border-color: #cbd5e1;
+    -fx-border-radius: 7px;
+    -fx-background-radius: 7px;
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+}
+
+.textfield:focused {
+    
+    -fx-border-color: #2563eb;
+    -fx-border-width: 2px;
+}
+
+.calculate-button {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 25px;
+    -fx-background-radius: 7px;
+    -fx-cursor: hand;
+}
+
+.calculate-button:hover {
+    -fx-background-color: #1d4ed8;
+}
+
+.reset-button {
+    -fx-background-color: #e2e8f0;
+    -fx-text-fill: #334155;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 25px;
+    -fx-background-radius: 7px;
+    -fx-cursor: hand;
+}
+
+.reset-button:hover {
+    -fx-background-color: #cbd5e1;
+}
+
+.results-container {
+    -fx-background-color: white;
+    -fx-padding: 15px;
+    -fx-background-radius: 12px;
+}
+
+.result {
+    -fx-background-color: white;
+    -fx-border-color: #e2e8f0;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 15px;
+    -fx-min-width: 150px;
+    -fx-min-height: 75px;
+    -fx-alignment: center;
+}
+

@@ -1,0 +1,20 @@
+NetBeans build files:
+/nbbuild/
+/nbdist/
+/build/
+/dist/
+
+Compiled Java files
+*.class
+
+IDE files
+.idea/
+*.iml
+
+OS files
+.DS_Store
+Thumbs.db
+
+Temporary files
+*.tmp
+*.log
